@@ -1,0 +1,104 @@
+*{
+   box-sizing: border-box;
+   margin: 0 ;
+   padding: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* ..................................
+.............მთავარი კონტეინერი .......
+.................................... */
+.container{
+   width: 100%;
+   height: 100vh;
+   background-image: url(../img/index-georgia.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+/* ...............................
+...........სათაური და აღწერა ....
+...................................*/
+
+.satauri{
+   color: rgb(37, 26, 4);
+   padding-left: 10px;
+   box-sizing: border-box;
+   box-shadow:  10px 10px 20px 5px black;
+}
+
+
+.trv-geo{
+   font-weight: 1000;
+   font-size: medium;
+   padding-left: 80px;
+   padding-top: 7%;
+   width: 90%;
+   height: 20vh;
+   text-align: center;
+}
+/* ..............................
+.............cards...............
+................................. */
+.containers{
+   display: flex;
+   justify-content: center;
+   margin-top: 70px;
+}
+
+.card{
+   background: white;
+   width: 220px;
+   margin: 10px;
+   border-radius: 15px  ;
+}
+
+.card-image{
+   background-color: aqua;
+   height: 150px;
+   margin-bottom: 15px;
+   background-size: cover;
+}
+.photo1{
+   background-image: url(../img/tradition.jpg);
+
+}
+.photo2{
+   background-image: url(../img/nature.jpg);
+
+}
+.photo3{
+   background-image: url(../img/story.jpg);
+
+}
+.photo4{
+   background-image: url(../img/wine.jpg);
+
+}
+
+.card h2{
+   text-align: center;
+   padding: 10px;
+}
+
+.card p{
+   padding-left: 10px;
+}
+
+.card a{
+   background-color: black;
+   color: white;
+   padding: 14px 20px;
+   display: block;
+   text-align: center;
+   margin: 20px 20px;
+   text-decoration: none;
+}
+
+.card:hover{
+   background-color: rgba(63, 63, 63, 0.595);
+   color: white;
+   cursor: pointer;
+   transform: scale(1.03);
+   transition:all 0.9s ease;
+}
